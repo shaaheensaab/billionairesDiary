@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>billionaires diary</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.2/dist/full.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="container mx-auto bg-gray-100">
+    <!-- header -->
+    <!-- <header class="text-center bg-gray-400 py-5">
+        <h2 class="text-3xl font-bold text-white">BilliONAiRES DiARY</h2>
+    </header> -->
+
+    <!-- aside -->
+    <!-- <aside>
+        <section>
+            <h3>BILLIONAIRE</h3>
+            <h4>DIARY</h4>
+        </section>
+    </aside> -->
+
+    <!-- main -->
+    <main class="grid grid-cols-3 md:grid-cols-4">
+        <section class="bg-sky-900 px-3 md:px-6 py-3 text-center grid-col-4 grid">
+            <div class="text-white font-bold">
+                <h3>BILLIONAIRE</h3>
+                <h4 class="text-slate-400 font-semibold">DIARY</h4>
+            </div>
+            <div class="flex flex-col gap-5 mt-5">
+                <button class="bg-white p-1 font-bold">Add a user</button>
+                <button class="bg-white p-1 font-bold">Double Money</button>
+                <button class="bg-white p-1 font-bold">Sort By Rank</button>
+                <button class="bg-white p-1 font-bold">Calculate Entire Wealth</button>
+                <button class="bg-white p-1 font-bold">Show All Billionaires</button>
+                <button class="bg-white p-1 font-bold">Richest By Industry</button>
+                <button class="bg-white p-1 font-bold">Richest By States</button>
+            </div>
+        </section>
+        <section class="bg-gray-300 w-full col-span-2 md:col-span-3">
+            <!-- Search Field -->
+            <div class="flex gap-2 bg-gray-100 py-5 px-4">
+                <input type="text" placeholder="Search" class="input input-bordered rounded-none"/>
+                <button class="btn bg-sky-700 rounded-none border-none font-bold">Search</button>
+            </div>
+
+            <!-- Display Data Field -->
+            <div class="px-10 py-5">
+                <h2 class="text-2xl font-semibold">Hello!</h2>
+                <div class="mt-3">
+                    <table class="w-full">
+                        <thead class="border-b border-black">
+                            <tr class="flex justify-between py-1">
+                                <th>Person</th>
+                                <th>Citizenship</th>
+                                <th>Industry</th>
+                                <th>Rank</th>
+                                <th>Wealth</th>
+                            </tr>
+                        </thead>
+                        <tbody id="datalist-container">
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- tailwind css CDN link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- daisyUI CDN link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- javaScript files -->
+    <script src="js/app.js"></script>
+</body>
+</html>
